@@ -18,14 +18,10 @@ But to initialize new project in existing folder, I should execute:
 cargo init
 ```
 
-## Hello, world
+## Build project
 
-In this lesson I found out that to output text I should use macro `println!()` (not a function)
+Use
 
-Now I can output something to console, yahoo! :D
-
-```rust
-fn main() {
-  println!("Hello, I'm start learning Rust :D")
-}
+```sh
+cargo build
 ```
